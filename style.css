@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-name h3{
+    font-size: 25px
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.nav-menu ul li{
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: 0.3s ease;
+}
+
+.nav-menu ul li a:hover{
+    color: #696969;
+    border-bottom: 1px solid #696969;
+}
